@@ -29,7 +29,7 @@ namespace Workshop2023Gr6
                     if (parsedStr < 0)
                         throw new ArgumentException();
 
-                    if (parsedStr <= 1000)
+                    if (parsedStr <= 500)
                         sum += parsedStr;
                 }
                 else return 0;
