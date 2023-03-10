@@ -18,7 +18,7 @@ namespace Workshop2023Gr6
                 : null;
 
             var split = customSeparator is null 
-                ? str.Split(',','|','\n') 
+                ? str.Split(',','|','\n' ) 
                 : str[4..].Split(',','|','\n', customSeparator.Value);
 
             int sum = 0;
